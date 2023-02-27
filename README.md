@@ -9,11 +9,31 @@ Multiple myeloma (MM) immune escape resulting from B cell maturation antigen (BC
 # Data
 
 ## Single-cell RNA-Seq
-
+NCBI GEO: [GSEXXXXXX](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSEXXXXXX) <br/>
+```
+wget https://ftp.ncbi.nlm.nih.gov/geo/series/GSE108nnn/GSEXXXXXX/suppl/GSEXXXXXX_RAW.tar
+tar -xvf GSEXXXXXX_RAW.tar
+```
+NCBI SRA: SRPXXXXXX <br/>
+```
+source activate sratoolkit
+fastq-dump --outdir fastq --gzip --skip-technical  --readids --read-filter pass --dumpbase --split-3 --clip SRR_ID
+## Specify SRR_ID - obtained using SRA Run selector.
+```
 
 ## Single-cell CNV-Seq
-
+NCBI GEO: [GSEXXXXXX](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSEXXXXXX) <br/>
+```
+wget https://ftp.ncbi.nlm.nih.gov/geo/series/GSE108nnn/GSEXXXXXX/suppl/GSEXXXXXX_RAW.tar
+tar -xvf GSEXXXXXX_RAW.tar
+```
+NCBI SRA: SRPXXXXXX <br/>
+```
+source activate sratoolkit
+fastq-dump --outdir fastq --gzip --skip-technical  --readids --read-filter pass --dumpbase --split-3 --clip SRR_ID
+## Specify SRR_ID - obtained using SRA Run selector.
+```
 
 # Contact
-Dr. Nizar Bahlis, MD (nbahlis@ucalgary.ca)
+Dr. Nizar Bahlis, MD (nbahlis@ucalgary.ca) <br/>
 Arnie Charbonneau Cancer Institute, University of Calgary
