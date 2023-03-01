@@ -1,7 +1,7 @@
 # Welcome
 This repository contains analysis scripts for Lee et al. Tumor Intrinsic Mechanisms of Antigen Escape to Anti-BCMA and Anti-GPRC5D Targeted Immunotherapies in Multiple Myeloma. Under review.
 
-![](images/Myeloma_Immunotherapy_Antigen_Escape/images/Myeloma_Immunotherapy_Antigen_Escape_Graphical_Abstract.png)
+![](images/Myeloma_Immunotherapy_Antigen_Escape_Graphical_Abstract.png)
 
 # Summary
 
