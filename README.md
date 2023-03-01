@@ -11,12 +11,12 @@ Multiple myeloma (MM) immune escape resulting from B cell maturation antigen (BC
 # Data
 
 ## Single-cell RNA-Seq
-NCBI GEO: [GSEXXXXXX](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSEXXXXXX) <br/>
+NCBI GEO: [GSE226335](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE226335) <br/>
 ```
-wget https://ftp.ncbi.nlm.nih.gov/geo/series/GSE108nnn/GSEXXXXXX/suppl/GSEXXXXXX_RAW.tar
-tar -xvf GSEXXXXXX_RAW.tar
+wget https://ftp.ncbi.nlm.nih.gov/geo/series/GSE108nnn/GSE226335/suppl/GSE226335_RAW.tar
+tar -xvf GSE226335_RAW.tar
 ```
-NCBI SRA: SRPXXXXXX <br/>
+NCBI SRA: SRPXXXXXX (provided once public) <br/>
 ```
 source activate sratoolkit
 fastq-dump --outdir fastq --gzip --skip-technical  --readids --read-filter pass --dumpbase --split-3 --clip SRR_ID
@@ -24,12 +24,12 @@ fastq-dump --outdir fastq --gzip --skip-technical  --readids --read-filter pass
 ```
 
 ## Single-cell CNV-Seq
-NCBI GEO: [GSEXXXXXX](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSEXXXXXX) <br/>
+NCBI GEO: [GSE226327](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE226327) <br/>
 ```
-wget https://ftp.ncbi.nlm.nih.gov/geo/series/GSE108nnn/GSEXXXXXX/suppl/GSEXXXXXX_RAW.tar
-tar -xvf GSEXXXXXX_RAW.tar
+wget https://ftp.ncbi.nlm.nih.gov/geo/series/GSE108nnn/GSE226327/suppl/GSE226327_RAW.tar
+tar -xvf GSE226327_RAW.tar
 ```
-NCBI SRA: SRPXXXXXX <br/>
+NCBI SRA: SRPXXXXXX (provided once public) <br/>
 ```
 source activate sratoolkit
 fastq-dump --outdir fastq --gzip --skip-technical  --readids --read-filter pass --dumpbase --split-3 --clip SRR_ID
